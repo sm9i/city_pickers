@@ -412,7 +412,8 @@ class _CitiesSelectorState extends State<CitiesSelector> {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Colors.white,
-        resizeToAvoidBottomPadding: false,
+        resizeToAvoidBottomInset: false,
+        // resizeToAvoidBottomPadding: false,
         appBar: AppBar(
             title: Text(
           widget.title,
